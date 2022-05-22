@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct iExpenseApp: App {
+    @StateObject var expenses = Expenses()
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(expenses: expenses)
         }
     }
 }

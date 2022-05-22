@@ -11,6 +11,12 @@
 		667615D02839231600D527F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667615CF2839231600D527F6 /* ContentView.swift */; };
 		667615D22839231600D527F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667615D12839231600D527F6 /* Assets.xcassets */; };
 		667615D52839231600D527F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 667615D42839231600D527F6 /* Preview Assets.xcassets */; };
+		667615DE2839239B00D527F6 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667615DD2839239B00D527F6 /* ExpenseItem.swift */; };
+		667615E02839242A00D527F6 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667615DF2839242A00D527F6 /* Expenses.swift */; };
+		667615E2283929D400D527F6 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667615E1283929D400D527F6 /* AddView.swift */; };
+		667615E428392E1E00D527F6 /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667615E328392E1E00D527F6 /* Enums.swift */; };
+		667615E6283930A700D527F6 /* ExpenseItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667615E5283930A700D527F6 /* ExpenseItemRow.swift */; };
+		667615E828393A4700D527F6 /* SectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 667615E728393A4700D527F6 /* SectionHeaderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		667615CF2839231600D527F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		667615D12839231600D527F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		667615D42839231600D527F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		667615DD2839239B00D527F6 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		667615DF2839242A00D527F6 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		667615E1283929D400D527F6 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		667615E328392E1E00D527F6 /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
+		667615E5283930A700D527F6 /* ExpenseItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItemRow.swift; sourceTree = "<group>"; };
+		667615E728393A4700D527F6 /* SectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeaderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				667615CD2839231600D527F6 /* iExpenseApp.swift */,
 				667615CF2839231600D527F6 /* ContentView.swift */,
+				667615E728393A4700D527F6 /* SectionHeaderView.swift */,
+				667615E1283929D400D527F6 /* AddView.swift */,
+				667615DD2839239B00D527F6 /* ExpenseItem.swift */,
+				667615E5283930A700D527F6 /* ExpenseItemRow.swift */,
+				667615DF2839242A00D527F6 /* Expenses.swift */,
+				667615E328392E1E00D527F6 /* Enums.swift */,
 				667615D12839231600D527F6 /* Assets.xcassets */,
 				667615D32839231600D527F6 /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				667615E02839242A00D527F6 /* Expenses.swift in Sources */,
 				667615D02839231600D527F6 /* ContentView.swift in Sources */,
+				667615E2283929D400D527F6 /* AddView.swift in Sources */,
+				667615E828393A4700D527F6 /* SectionHeaderView.swift in Sources */,
+				667615DE2839239B00D527F6 /* ExpenseItem.swift in Sources */,
+				667615E6283930A700D527F6 /* ExpenseItemRow.swift in Sources */,
+				667615E428392E1E00D527F6 /* Enums.swift in Sources */,
 				667615CE2839231600D527F6 /* iExpenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
